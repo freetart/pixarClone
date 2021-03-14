@@ -1,9 +1,23 @@
 // nav
-
 .nav-link {
   font-size: 1.2rem;
 
   @media (max-width: 992px) {
     border-bottom: 0.1rem solid #f2f2f2;
+  }
+}
+
+// home hero
+.home-hero {
+  background: url("../imgs/home/homebg.jpg") center center/cover no-repeat fixed;
+
+  .col {
+    height: 100vh;
+
+    @media (max-width: 768px) {
+      img {
+        width: 75%;
+      }
+    }
   }
 }
