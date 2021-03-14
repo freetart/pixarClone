@@ -1,2 +1,2 @@
-.nav-link{font-size:1.2rem}@media (max-width: 992px){.nav-link{border-bottom:0.1rem solid #f2f2f2}}.home-hero{background:url("../imgs/home/homebg.jpg") center center/cover no-repeat fixed}.home-hero .col{height:100vh}@media (max-width: 768px){.home-hero .col img{width:75%}}.home-links img{width:100%}
+.landing{background:url("../imgs/home/homebg.jpg") center center/cover no-repeat fixed;height:100vh;width:100vw;overflow:hidden}.landing .col{height:100vh;width:100vw}.landing .col .btn{font-size:1.7rem;letter-spacing:0.2rem}@media (max-width: 992px){.landing .col img{width:75%}}.nav-link{font-size:1.2rem}@media (max-width: 992px){.nav-link{border-bottom:0.1rem solid #f2f2f2}}
 /*# sourceMappingURL=main.min.css.map */
