@@ -30,3 +30,27 @@
     border-bottom: 0.1rem solid #f2f2f2;
   }
 }
+
+// feature films hero
+.feature-films-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("../imgs/featureFilms/featureFilms-bg.jpg") center center/cover
+      no-repeat fixed;
+  height: 80vh;
+  width: 100vw;
+
+  @media (max-width: 1200px) {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+      url("../imgs/featureFilms/featureFilms-bg.jpg") center left/cover
+        no-repeat fixed;
+  }
+
+  .col {
+    height: 80vh;
+    width: 100vw;
+
+    h1 {
+      letter-spacing: 0.5rem;
+    }
+  }
+}
