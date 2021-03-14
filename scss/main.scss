@@ -128,3 +128,14 @@ body {
     }
   }
 }
+
+// carousel
+.carousel-item {
+  img {
+    height: 35rem;
+
+    @media (max-width: 768px) {
+      height: 20rem;
+    }
+  }
+}
