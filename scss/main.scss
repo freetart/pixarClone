@@ -164,3 +164,30 @@ body {
     }
   }
 }
+
+// careers gallery
+.careers-gallery {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+// careers-hero-2
+.careers-hero-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
+    url("../imgs/careers/careers-bg2.jpg") center center/cover no-repeat fixed;
+  height: 80vh;
+  width: 100vw;
+
+  .col {
+    height: 80vh;
+    width: 100vw;
+
+    h1 {
+      letter-spacing: 0.1rem;
+      text-shadow: 0.5rem 0.5rem 0.1rem #000;
+    }
+  }
+}
