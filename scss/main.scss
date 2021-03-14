@@ -58,7 +58,8 @@ body {
     width: 100vw;
 
     h1 {
-      letter-spacing: 0.5rem;
+      letter-spacing: 0.1rem;
+      text-shadow: 0.5rem 0.5rem 0.1rem #000;
     }
   }
 }
@@ -115,12 +116,13 @@ body {
     width: 100vw;
 
     h1 {
+      letter-spacing: 0.1rem;
       text-shadow: 0.5rem 0.5rem 0.1rem #000;
     }
   }
 }
 
-// renderman
+// technology renderman
 .renderman {
   @media (max-width: 992px) {
     .info {
@@ -129,13 +131,36 @@ body {
   }
 }
 
-// carousel
+// technology carousel
 .carousel-item {
   img {
     height: 35rem;
+    object-fit: cover;
 
     @media (max-width: 768px) {
       height: 20rem;
+    }
+
+    @media (max-width: 576px) {
+      height: 15rem;
+    }
+  }
+}
+
+// careers hero
+.careers-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
+    url("../imgs/careers/careers-bg1.jpg") center center/cover no-repeat fixed;
+  height: 80vh;
+  width: 100vw;
+
+  .col {
+    height: 80vh;
+    width: 100vw;
+
+    h1 {
+      letter-spacing: 0.1rem;
+      text-shadow: 0.5rem 0.5rem 0.1rem #000;
     }
   }
 }
