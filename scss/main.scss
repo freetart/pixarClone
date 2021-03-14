@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 // landing page
 .landing {
   background: url("../imgs/home/homebg.jpg") center center/cover no-repeat fixed;
@@ -51,6 +55,15 @@
 
     h1 {
       letter-spacing: 0.5rem;
+    }
+  }
+}
+
+// feature films
+.feature-films {
+  @media (max-width: 768px) {
+    .info {
+      order: -1;
     }
   }
 }
